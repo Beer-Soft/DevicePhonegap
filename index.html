@@ -16,12 +16,12 @@
             document.addEventListener("deviceready", function () {
 
                 //Obtenemos la informacion del dispositivo
-                $("#version").tex(device.cordova + ' ' + device.platform + ' ');
-                $("#modelo").tex(device.model);
-                $("#uuid").tex(device.uuid);
-                $("#Fabricante").tex(device.manufacturer);
-                $("#isvirtual").tex(device.isVirtual);
-                $("#serie").tex(device.serial);
+                $("#version").text(device.cordova + ' ' + device.platform + ' ');
+                $("#modelo").text(device.model);
+                $("#uuid").text(device.uuid);
+                $("#Fabricante").text(device.manufacturer);
+                $("#isvirtual").text(device.isVirtual);
+                $("#serie").text(device.serial);
 
             }, false);
 
