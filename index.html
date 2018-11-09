@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html>
 <head>
     <meta charset="utf-8">
@@ -16,14 +16,14 @@
         document.addEventListener("deviceready", function() {
         
           //Obtenemos la informacion del dispositivo
-          $("#version").tex(device.cordova + ' ' + device.platform + ' ');
-          $("#modelo").tex(device.model);
-          $("#uuid").tex(device.uuid);
-          $("#Fabricante").tex(device.manufacturer);
-          $("#isvirtual").tex(device.isVirtual);
-          $("#serie").tex(device.serial);
+          //$("#version").tex(device.cordova + ' ' + device.platform + ' ');
+          //$("#modelo").tex(device.model);
+          //$("#uuid").tex(device.uuid);
+          //$("#Fabricante").tex(device.manufacturer);
+          //$("#isvirtual").tex(device.isVirtual);
+          //$("#serie").tex(device.serial);
 
-
+            ons.notification.alert('serie dispositivo ' + device.serial);
 
         },false);
       }</script>
